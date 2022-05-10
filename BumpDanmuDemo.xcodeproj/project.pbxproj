@@ -1,0 +1,736 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1BEB71D578BA9DE03C2A960D /* Pods_BumpDanmuDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF2195DFE26D897DCB745B79 /* Pods_BumpDanmuDemo.framework */; };
+		6325ECAF28113C2700CB678B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6325ECAE28113C2700CB678B /* AppDelegate.m */; };
+		6325ECB228113C2700CB678B /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6325ECB128113C2700CB678B /* SceneDelegate.m */; };
+		6325ECB528113C2700CB678B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6325ECB428113C2700CB678B /* ViewController.m */; };
+		6325ECB828113C2700CB678B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6325ECB628113C2700CB678B /* Main.storyboard */; };
+		6325ECBA28113C2800CB678B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6325ECB928113C2800CB678B /* Assets.xcassets */; };
+		6325ECBD28113C2800CB678B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6325ECBB28113C2800CB678B /* LaunchScreen.storyboard */; };
+		6325ECC028113C2800CB678B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6325ECBF28113C2800CB678B /* main.m */; };
+		6325ECCA28113C2800CB678B /* BumpDanmuDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6325ECC928113C2800CB678B /* BumpDanmuDemoTests.m */; };
+		6325ECD428113C2800CB678B /* BumpDanmuDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6325ECD328113C2800CB678B /* BumpDanmuDemoUITests.m */; };
+		6325ECD628113C2800CB678B /* BumpDanmuDemoUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6325ECD528113C2800CB678B /* BumpDanmuDemoUITestsLaunchTests.m */; };
+		6325ECED28113D2100CB678B /* UIView+Sizes.m in Sources */ = {isa = PBXBuildFile; fileRef = 6325ECEC28113D2100CB678B /* UIView+Sizes.m */; };
+		6325ECF028113D5400CB678B /* UIColor+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 6325ECEF28113D5400CB678B /* UIColor+Utils.m */; };
+		6325ECF328113D8300CB678B /* DanmuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6325ECF228113D8300CB678B /* DanmuView.m */; };
+		6325ECF628113D9100CB678B /* DanmuLeftItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6325ECF528113D9100CB678B /* DanmuLeftItemView.m */; };
+		6325ECF928113D9E00CB678B /* DanmuRightItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6325ECF828113D9E00CB678B /* DanmuRightItemView.m */; };
+		6325ED3F2811431300CB678B /* bump.svga in Resources */ = {isa = PBXBuildFile; fileRef = 6325ED3E2811431300CB678B /* bump.svga */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6325ECC628113C2800CB678B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6325ECA228113C2700CB678B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6325ECA928113C2700CB678B;
+			remoteInfo = BumpDanmuDemo;
+		};
+		6325ECD028113C2800CB678B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6325ECA228113C2700CB678B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6325ECA928113C2700CB678B;
+			remoteInfo = BumpDanmuDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		170A8E68EC9574FFEC64BD23 /* Pods-BumpDanmuDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BumpDanmuDemo.release.xcconfig"; path = "Target Support Files/Pods-BumpDanmuDemo/Pods-BumpDanmuDemo.release.xcconfig"; sourceTree = "<group>"; };
+		6325ECAA28113C2700CB678B /* BumpDanmuDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BumpDanmuDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6325ECAD28113C2700CB678B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6325ECAE28113C2700CB678B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6325ECB028113C2700CB678B /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		6325ECB128113C2700CB678B /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		6325ECB328113C2700CB678B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6325ECB428113C2700CB678B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6325ECB728113C2700CB678B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6325ECB928113C2800CB678B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6325ECBC28113C2800CB678B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6325ECBE28113C2800CB678B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6325ECBF28113C2800CB678B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6325ECC528113C2800CB678B /* BumpDanmuDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BumpDanmuDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6325ECC928113C2800CB678B /* BumpDanmuDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BumpDanmuDemoTests.m; sourceTree = "<group>"; };
+		6325ECCF28113C2800CB678B /* BumpDanmuDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BumpDanmuDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6325ECD328113C2800CB678B /* BumpDanmuDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BumpDanmuDemoUITests.m; sourceTree = "<group>"; };
+		6325ECD528113C2800CB678B /* BumpDanmuDemoUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BumpDanmuDemoUITestsLaunchTests.m; sourceTree = "<group>"; };
+		6325ECEB28113D2100CB678B /* UIView+Sizes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Sizes.h"; sourceTree = "<group>"; };
+		6325ECEC28113D2100CB678B /* UIView+Sizes.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Sizes.m"; sourceTree = "<group>"; };
+		6325ECEE28113D5400CB678B /* UIColor+Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Utils.h"; sourceTree = "<group>"; };
+		6325ECEF28113D5400CB678B /* UIColor+Utils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Utils.m"; sourceTree = "<group>"; };
+		6325ECF128113D8300CB678B /* DanmuView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DanmuView.h; sourceTree = "<group>"; };
+		6325ECF228113D8300CB678B /* DanmuView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DanmuView.m; sourceTree = "<group>"; };
+		6325ECF428113D9100CB678B /* DanmuLeftItemView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DanmuLeftItemView.h; sourceTree = "<group>"; };
+		6325ECF528113D9100CB678B /* DanmuLeftItemView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DanmuLeftItemView.m; sourceTree = "<group>"; };
+		6325ECF728113D9E00CB678B /* DanmuRightItemView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DanmuRightItemView.h; sourceTree = "<group>"; };
+		6325ECF828113D9E00CB678B /* DanmuRightItemView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DanmuRightItemView.m; sourceTree = "<group>"; };
+		6325ED3E2811431300CB678B /* bump.svga */ = {isa = PBXFileReference; lastKnownFileType = file; path = bump.svga; sourceTree = "<group>"; };
+		A51D29B07E1B97518EFFD28D /* Pods-BumpDanmuDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BumpDanmuDemo.debug.xcconfig"; path = "Target Support Files/Pods-BumpDanmuDemo/Pods-BumpDanmuDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		EF2195DFE26D897DCB745B79 /* Pods_BumpDanmuDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BumpDanmuDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6325ECA728113C2700CB678B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BEB71D578BA9DE03C2A960D /* Pods_BumpDanmuDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6325ECC228113C2800CB678B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6325ECCC28113C2800CB678B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6325ECA128113C2700CB678B = {
+			isa = PBXGroup;
+			children = (
+				6325ED3E2811431300CB678B /* bump.svga */,
+				6325ECAC28113C2700CB678B /* BumpDanmuDemo */,
+				6325ECC828113C2800CB678B /* BumpDanmuDemoTests */,
+				6325ECD228113C2800CB678B /* BumpDanmuDemoUITests */,
+				6325ECAB28113C2700CB678B /* Products */,
+				C585CBD8D691616F75D25B93 /* Pods */,
+				A598C96A90A87728A07F4B43 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6325ECAB28113C2700CB678B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6325ECAA28113C2700CB678B /* BumpDanmuDemo.app */,
+				6325ECC528113C2800CB678B /* BumpDanmuDemoTests.xctest */,
+				6325ECCF28113C2800CB678B /* BumpDanmuDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6325ECAC28113C2700CB678B /* BumpDanmuDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6325ECEA28113CFA00CB678B /* DanmuView */,
+				6325ECAD28113C2700CB678B /* AppDelegate.h */,
+				6325ECAE28113C2700CB678B /* AppDelegate.m */,
+				6325ECB028113C2700CB678B /* SceneDelegate.h */,
+				6325ECB128113C2700CB678B /* SceneDelegate.m */,
+				6325ECB328113C2700CB678B /* ViewController.h */,
+				6325ECB428113C2700CB678B /* ViewController.m */,
+				6325ECB628113C2700CB678B /* Main.storyboard */,
+				6325ECB928113C2800CB678B /* Assets.xcassets */,
+				6325ECBB28113C2800CB678B /* LaunchScreen.storyboard */,
+				6325ECBE28113C2800CB678B /* Info.plist */,
+				6325ECBF28113C2800CB678B /* main.m */,
+				6325ECEB28113D2100CB678B /* UIView+Sizes.h */,
+				6325ECEC28113D2100CB678B /* UIView+Sizes.m */,
+				6325ECEE28113D5400CB678B /* UIColor+Utils.h */,
+				6325ECEF28113D5400CB678B /* UIColor+Utils.m */,
+			);
+			path = BumpDanmuDemo;
+			sourceTree = "<group>";
+		};
+		6325ECC828113C2800CB678B /* BumpDanmuDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				6325ECC928113C2800CB678B /* BumpDanmuDemoTests.m */,
+			);
+			path = BumpDanmuDemoTests;
+			sourceTree = "<group>";
+		};
+		6325ECD228113C2800CB678B /* BumpDanmuDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6325ECD328113C2800CB678B /* BumpDanmuDemoUITests.m */,
+				6325ECD528113C2800CB678B /* BumpDanmuDemoUITestsLaunchTests.m */,
+			);
+			path = BumpDanmuDemoUITests;
+			sourceTree = "<group>";
+		};
+		6325ECEA28113CFA00CB678B /* DanmuView */ = {
+			isa = PBXGroup;
+			children = (
+				6325ECF128113D8300CB678B /* DanmuView.h */,
+				6325ECF228113D8300CB678B /* DanmuView.m */,
+				6325ECF428113D9100CB678B /* DanmuLeftItemView.h */,
+				6325ECF528113D9100CB678B /* DanmuLeftItemView.m */,
+				6325ECF728113D9E00CB678B /* DanmuRightItemView.h */,
+				6325ECF828113D9E00CB678B /* DanmuRightItemView.m */,
+			);
+			path = DanmuView;
+			sourceTree = "<group>";
+		};
+		A598C96A90A87728A07F4B43 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF2195DFE26D897DCB745B79 /* Pods_BumpDanmuDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C585CBD8D691616F75D25B93 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A51D29B07E1B97518EFFD28D /* Pods-BumpDanmuDemo.debug.xcconfig */,
+				170A8E68EC9574FFEC64BD23 /* Pods-BumpDanmuDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6325ECA928113C2700CB678B /* BumpDanmuDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6325ECD928113C2800CB678B /* Build configuration list for PBXNativeTarget "BumpDanmuDemo" */;
+			buildPhases = (
+				8E41D84747E393AF039FCDF8 /* [CP] Check Pods Manifest.lock */,
+				6325ECA628113C2700CB678B /* Sources */,
+				6325ECA728113C2700CB678B /* Frameworks */,
+				6325ECA828113C2700CB678B /* Resources */,
+				360A31D79C7533191B732B21 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BumpDanmuDemo;
+			productName = BumpDanmuDemo;
+			productReference = 6325ECAA28113C2700CB678B /* BumpDanmuDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6325ECC428113C2800CB678B /* BumpDanmuDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6325ECDC28113C2800CB678B /* Build configuration list for PBXNativeTarget "BumpDanmuDemoTests" */;
+			buildPhases = (
+				6325ECC128113C2800CB678B /* Sources */,
+				6325ECC228113C2800CB678B /* Frameworks */,
+				6325ECC328113C2800CB678B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6325ECC728113C2800CB678B /* PBXTargetDependency */,
+			);
+			name = BumpDanmuDemoTests;
+			productName = BumpDanmuDemoTests;
+			productReference = 6325ECC528113C2800CB678B /* BumpDanmuDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6325ECCE28113C2800CB678B /* BumpDanmuDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6325ECDF28113C2800CB678B /* Build configuration list for PBXNativeTarget "BumpDanmuDemoUITests" */;
+			buildPhases = (
+				6325ECCB28113C2800CB678B /* Sources */,
+				6325ECCC28113C2800CB678B /* Frameworks */,
+				6325ECCD28113C2800CB678B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6325ECD128113C2800CB678B /* PBXTargetDependency */,
+			);
+			name = BumpDanmuDemoUITests;
+			productName = BumpDanmuDemoUITests;
+			productReference = 6325ECCF28113C2800CB678B /* BumpDanmuDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6325ECA228113C2700CB678B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					6325ECA928113C2700CB678B = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					6325ECC428113C2800CB678B = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 6325ECA928113C2700CB678B;
+					};
+					6325ECCE28113C2800CB678B = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 6325ECA928113C2700CB678B;
+					};
+				};
+			};
+			buildConfigurationList = 6325ECA528113C2700CB678B /* Build configuration list for PBXProject "BumpDanmuDemo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6325ECA128113C2700CB678B;
+			productRefGroup = 6325ECAB28113C2700CB678B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6325ECA928113C2700CB678B /* BumpDanmuDemo */,
+				6325ECC428113C2800CB678B /* BumpDanmuDemoTests */,
+				6325ECCE28113C2800CB678B /* BumpDanmuDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6325ECA828113C2700CB678B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6325ED3F2811431300CB678B /* bump.svga in Resources */,
+				6325ECBD28113C2800CB678B /* LaunchScreen.storyboard in Resources */,
+				6325ECBA28113C2800CB678B /* Assets.xcassets in Resources */,
+				6325ECB828113C2700CB678B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6325ECC328113C2800CB678B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6325ECCD28113C2800CB678B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		360A31D79C7533191B732B21 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BumpDanmuDemo/Pods-BumpDanmuDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BumpDanmuDemo/Pods-BumpDanmuDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BumpDanmuDemo/Pods-BumpDanmuDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E41D84747E393AF039FCDF8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BumpDanmuDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6325ECA628113C2700CB678B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6325ECF928113D9E00CB678B /* DanmuRightItemView.m in Sources */,
+				6325ECF628113D9100CB678B /* DanmuLeftItemView.m in Sources */,
+				6325ECB528113C2700CB678B /* ViewController.m in Sources */,
+				6325ECF028113D5400CB678B /* UIColor+Utils.m in Sources */,
+				6325ECAF28113C2700CB678B /* AppDelegate.m in Sources */,
+				6325ECC028113C2800CB678B /* main.m in Sources */,
+				6325ECED28113D2100CB678B /* UIView+Sizes.m in Sources */,
+				6325ECB228113C2700CB678B /* SceneDelegate.m in Sources */,
+				6325ECF328113D8300CB678B /* DanmuView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6325ECC128113C2800CB678B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6325ECCA28113C2800CB678B /* BumpDanmuDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6325ECCB28113C2800CB678B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6325ECD428113C2800CB678B /* BumpDanmuDemoUITests.m in Sources */,
+				6325ECD628113C2800CB678B /* BumpDanmuDemoUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6325ECC728113C2800CB678B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6325ECA928113C2700CB678B /* BumpDanmuDemo */;
+			targetProxy = 6325ECC628113C2800CB678B /* PBXContainerItemProxy */;
+		};
+		6325ECD128113C2800CB678B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6325ECA928113C2700CB678B /* BumpDanmuDemo */;
+			targetProxy = 6325ECD028113C2800CB678B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6325ECB628113C2700CB678B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6325ECB728113C2700CB678B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6325ECBB28113C2800CB678B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6325ECBC28113C2800CB678B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6325ECD728113C2800CB678B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6325ECD828113C2800CB678B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6325ECDA28113C2800CB678B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A51D29B07E1B97518EFFD28D /* Pods-BumpDanmuDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 34UL9Z437G;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BumpDanmuDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fangtingting.BumpDanmuDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "match Development *";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6325ECDB28113C2800CB678B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 170A8E68EC9574FFEC64BD23 /* Pods-BumpDanmuDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 34UL9Z437G;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BumpDanmuDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fangtingting.BumpDanmuDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "match Development *";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6325ECDD28113C2800CB678B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fangtingting.BumpDanmuDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BumpDanmuDemo.app/BumpDanmuDemo";
+			};
+			name = Debug;
+		};
+		6325ECDE28113C2800CB678B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fangtingting.BumpDanmuDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BumpDanmuDemo.app/BumpDanmuDemo";
+			};
+			name = Release;
+		};
+		6325ECE028113C2800CB678B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fangtingting.BumpDanmuDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BumpDanmuDemo;
+			};
+			name = Debug;
+		};
+		6325ECE128113C2800CB678B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fangtingting.BumpDanmuDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BumpDanmuDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6325ECA528113C2700CB678B /* Build configuration list for PBXProject "BumpDanmuDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6325ECD728113C2800CB678B /* Debug */,
+				6325ECD828113C2800CB678B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6325ECD928113C2800CB678B /* Build configuration list for PBXNativeTarget "BumpDanmuDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6325ECDA28113C2800CB678B /* Debug */,
+				6325ECDB28113C2800CB678B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6325ECDC28113C2800CB678B /* Build configuration list for PBXNativeTarget "BumpDanmuDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6325ECDD28113C2800CB678B /* Debug */,
+				6325ECDE28113C2800CB678B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6325ECDF28113C2800CB678B /* Build configuration list for PBXNativeTarget "BumpDanmuDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6325ECE028113C2800CB678B /* Debug */,
+				6325ECE128113C2800CB678B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6325ECA228113C2700CB678B /* Project object */;
+}
